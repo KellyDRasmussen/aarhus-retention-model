@@ -1,0 +1,22 @@
+"Basic schools by institution, status, time, education and ancestry"
+
+" "," "," "," ","Total","Persons of Danish origin","Immigrants","Descendant","Unknown origin"
+"280397 Aarhus Academy for Global Education"
+" ","Students per 1st October"
+" "," ","2024"
+" "," "," ","Total",390,98,260,32,0
+" "," "," ","H20 0th grade",36,5,27,4,0
+" "," "," ","H21 1st grade",34,5,25,4,0
+" "," "," ","H22 2nd grade",38,5,31,2,0
+" "," "," ","H23 3th grade",29,4,23,2,0
+" "," "," ","H24 4th grade",49,11,36,2,0
+" "," "," ","H25 5th grade",33,1,31,1,0
+" "," "," ","H26 6th grade",42,15,22,5,0
+" "," "," ","H27 7th grade",38,15,21,2,0
+" "," "," ","H28 8th grade",39,16,18,5,0
+" "," "," ","H29 9th grade",52,21,26,5,0
+" "," "," ","H30 10th grade",0,0,0,0,0
+
+"For documentation follow this link (in danish): "
+"http://www.dst.dk/ext/uddannelse/Uddannelsestabeller "
+
