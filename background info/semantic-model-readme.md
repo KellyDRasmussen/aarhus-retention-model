@@ -12,101 +12,11 @@ The data model uses a dimensional structure with star schema principles to enabl
 
 ### Dimension Tables
 
-#### DimDate
-- **Purpose**: Provides time context for all measurements
-- **Key Fields**:
-  - `Year` (key) - The calendar year (2021-2030)
-  - `IsHistorical` - Boolean flag (TRUE for 2021-2025, FALSE for 2026-2030)
-  - `YearType` - Categorization ("Historical", "Forecast", "Target")
-  - `DisplayText` - Formatted year label for visualizations
 
-#### DimCategory
-- **Purpose**: Categorizes metrics into logical groupings
-- **Key Fields**:
-  - `CategoryID` (key) - Unique identifier
-  - `CategoryName` - Name (e.g., "Foreign Workers", "Migration", "Foreign Population")
-  - `CategoryDescription` - Detailed description
-  - `AnalysisType` - Broad classification for analysis purposes
-
-#### DimMetric
-- **Purpose**: Defines individual measurements tracked in the model
-- **Key Fields**:
-  - `MetricID` (key) - Unique identifier
-  - `MetricName` - Technical name (e.g., "Full time EU workers")
-  - `CategoryID` - Foreign key to DimCategory
-  - `DisplayName` - User-friendly name for visualizations
-  - `Description` - Detailed description including data source
-  - `MetricType` - Classification (e.g., "Direct Workforce", "Migration")
-  - `UnitOfMeasure` - Measurement unit (e.g., "People", "Percentage")
-
-#### DimReliability
-- **Purpose**: Defines forecast reliability classification levels
-- **Key Fields**:
-  - `ReliabilityID` (key) - Unique identifier
-  - `ReliabilityLevel` - Classification (e.g., "High Reliability", "Moderate Reliability")
-  - `ColorCode` - Hex color code for visualizations
-  - `Description` - Explanation of the reliability level
-  - `AssessmentCriteria` - How this level is determined
-
-#### DimScenario
-- **Purpose**: Defines different modeling scenarios
-- **Key Fields**:
-  - `ScenarioID` (key) - Unique identifier
-  - `ScenarioName` - Name of the scenario
-  - `WorkerToImmigrationRatio` - Conversion efficiency parameter
-  - `WorkerToNetMigrationRatio` - Alternative efficiency parameter
-  - `SpouseEmploymentRate` - Percentage of spouses employed
-  - `IsDefault` - Boolean indicating the default scenario
-  - `Description` - Detailed description of scenario parameters
 
 ### Fact Tables
 
-#### FactMetricValues
-- **Purpose**: Stores all metric values (historical and forecast)
-- **Key Fields**:
-  - `Year` - Foreign key to DimDate
-  - `MetricID` - Foreign key to DimMetric
-  - `Value` - The actual or forecasted value
-  - `ValueType` - Classification ("Actual", "Forecast", "Lower Bound", "Upper Bound")
-  - `UncertaintyValue` - Absolute uncertainty (± value)
-  - `RSquared` - Statistical R² value for forecasts
-  - `ReliabilityID` - Foreign key to DimReliability
-  - `MAPE` - Mean Absolute Percentage Error
-  - `CV` - Coefficient of Variation
 
-#### FactTargetAnalysis
-- **Purpose**: Stores target-related calculations and gap analysis
-- **Key Fields**:
-  - `Year` - Foreign key to DimDate
-  - `WorkforceTarget` - Annual worker target (typically 1,500)
-  - `ProjectedGrowth` - Forecasted growth under current trends
-  - `Gap` - Difference between target and projected growth
-  - `RequiredRecruitment` - Number of workers needed to be recruited
-  - `RequiredMigration` - Total migration needed to achieve target
-  - `ScenarioID` - Foreign key to DimScenario
-
-### Parameter Tables
-
-#### ParamSystemSettings
-- **Purpose**: Stores global settings and parameters
-- **Key Fields**:
-  - `SettingName` (key) - Name of the setting
-  - `SettingValue` - Value of the setting
-  - `Description` - Explanation of the setting's purpose
-  - `Category` - Classification of the setting
-
-### Metadata Table
-
-#### MetaDataInfo
-- **Purpose**: Documents model metadata
-- **Key Fields**:
-  - `DataVersion` (key) - Version identifier
-  - `LastUpdated` - Timestamp of last update
-  - `DataSource` - Description of data sources
-  - `Notes` - General notes about the model
-  - `Assumptions` - Key assumptions made in the analysis
-  - `AnalysisScope` - Scope definition
-  - `Author` - Model creator
 
 ## Key Calculated Measures
 

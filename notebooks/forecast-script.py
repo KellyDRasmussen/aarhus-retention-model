@@ -9,8 +9,8 @@ This script forecasts international workforce trends in Aarhus Kommune through 2
 based on historical data from 2021-2025. It includes detailed projections for population,
 worker categories, migration, and permits.
 
-Author: [Your Name]
-Date: [Current Date]
+Author: Kelly Rasmussen
+Date: May 2025
 """
 
 import pandas as pd
@@ -23,18 +23,6 @@ import sys
 
 # Create output directory if it doesn't exist
 os.makedirs('../outputs', exist_ok=True)
-
-# Try to use custom styling if available
-try:
-    sys.path.append('..')
-    from custom_viz_styling import setup_styling
-    setup_styling()
-except ImportError:
-    print("Custom styling module not found. Using default styling.")
-    plt.style.use('seaborn-v0_8-whitegrid')
-    sns.set_palette("deep")
-    plt.rcParams['figure.figsize'] = (12, 8)
-    plt.rcParams['font.size'] = 12
 
 # Display forecasting limitations warning
 print("⚠️ FORECASTING LIMITATION WARNING ⚠️")
@@ -308,8 +296,7 @@ def print_statistical_concepts():
     print("""
 1. LINEAR REGRESSION
    A statistical method that models the relationship between a dependent variable
-   and one or more independent variables. In this case, we're modeling how
-   various workforce metrics change over time.
+   and one or more independent variables. In a line graph, it's the gradient or "m".
 
 2. R² (R-SQUARED)
    A statistical measure that represents the proportion of variance in the dependent
@@ -469,24 +456,7 @@ def main():
     reliability_summary = reliability_assessment.groupby(['Category', 'Metric', 'Reliability']).size().reset_index(name='Count')
     print(reliability_summary.to_string(index=False))
     
-    # Print conclusion
-    print("\nForecast Analysis Complete!")
-    print("""
-Key Findings:
-1. Most foreign worker and population metrics show High or Good reliability
-2. Net migration is the least reliable metric (Low Reliability)
-3. By 2030, Aarhus can expect approximately:
-   - 9,091 international workers (±390)
-   - 39,873 foreign citizens aged 20-64 (±642)
-4. Third-country worker forecasts are more reliable than EU worker forecasts
-
-Next Steps:
-- Add spouse employment scenarios to estimate how improved retention could reduce recruitment needs
-- Model international school capacity needs based on these workforce projections
-- Create interactive dashboard for policy makers to explore different scenarios
-- Update forecasts annually as new data becomes available
-""")
-
+ 
 
 if __name__ == "__main__":
     main()
