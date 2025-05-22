@@ -1,0 +1,66 @@
+Year,Category,Metric,Forecast,Uncertainty (±),CV (%),R²,MAPE (%),Uncertainty (%),Reliability
+2026,Foreign Population,Foreign citizens 20-64 years,34485,343,8.6,0.97,1.2,1.0,High Reliability
+2026,Foreign Workers,Full time EU workers,5145,136,9.8,0.873,3.2,2.6,Good Reliability
+2026,Foreign Workers,Full time third country workers,1824,26,18.7,0.982,2.0,1.4,High Reliability
+2026,Foreign Workers,Total workers,6968,143,11.7,0.937,2.6,2.1,High Reliability
+2026,Migration,Emigration foreign citizens 20-64 years,5578,180,21.9,0.918,5.1,3.2,High Reliability
+2026,Migration,Immigration foreign citizens 20-64 years,6985,531,18.5,0.504,11.4,7.6,Moderate Reliability
+2026,Migration,Net migration,1407,515,39.5,0.008,32.6,36.6,Low Reliability
+2026,Work Permits,Family reunification,1199,53,8.4,0.553,5.2,4.4,Moderate Reliability
+2026,Work Permits,Permanent residency,4727,78,16.1,0.978,2.2,1.7,High Reliability
+2026,Work Permits,Study permit,511,50,29.9,0.919,8.2,9.8,High Reliability
+2026,Work Permits,Ukraine Emergency Law,782,50,90.3,0.947,2.9,6.4,High Reliability
+2026,Work Permits,Work permit 3rd country,1824,26,18.7,0.982,2.0,1.4,High Reliability
+2026,Work Permits,Work permit EU,5145,136,9.8,0.873,3.2,2.6,Good Reliability
+2027,Foreign Population,Foreign citizens 20-64 years,36235,486,8.6,0.97,1.2,1.3,High Reliability
+2027,Foreign Workers,Full time EU workers,5423,192,9.8,0.873,3.2,3.5,Good Reliability
+2027,Foreign Workers,Full time third country workers,1995,36,18.7,0.982,2.0,1.8,High Reliability
+2027,Foreign Workers,Total workers,7418,202,11.7,0.937,2.6,2.7,High Reliability
+2027,Migration,Emigration foreign citizens 20-64 years,6211,255,21.9,0.918,5.1,4.1,High Reliability
+2027,Migration,Immigration foreign citizens 20-64 years,7568,751,18.5,0.504,11.4,9.9,Moderate Reliability
+2027,Migration,Net migration,1357,678,39.5,0.008,32.6,50.0,Low Reliability
+2027,Work Permits,Family reunification,1246,75,8.4,0.553,5.2,6.0,Moderate Reliability
+2027,Work Permits,Permanent residency,5125,110,16.1,0.978,2.2,2.1,High Reliability
+2027,Work Permits,Study permit,576,50,29.9,0.919,8.2,8.7,High Reliability
+2027,Work Permits,Ukraine Emergency Law,951,58,90.3,0.947,2.9,6.1,High Reliability
+2027,Work Permits,Work permit 3rd country,1995,36,18.7,0.982,2.0,1.8,High Reliability
+2027,Work Permits,Work permit EU,5423,192,9.8,0.873,3.2,3.5,Good Reliability
+2028,Foreign Population,Foreign citizens 20-64 years,37986,595,8.6,0.97,1.2,1.6,High Reliability
+2028,Foreign Workers,Full time EU workers,5701,236,9.8,0.873,3.2,4.1,Good Reliability
+2028,Foreign Workers,Full time third country workers,2167,45,18.7,0.982,2.0,2.1,High Reliability
+2028,Foreign Workers,Total workers,7868,247,11.7,0.937,2.6,3.1,High Reliability
+2028,Migration,Emigration foreign citizens 20-64 years,6843,312,21.9,0.918,5.1,4.6,High Reliability
+2028,Migration,Immigration foreign citizens 20-64 years,8150,920,18.5,0.504,11.4,11.3,Moderate Reliability
+2028,Migration,Net migration,1307,653,39.5,0.008,32.6,50.0,Low Reliability
+2028,Work Permits,Family reunification,1293,92,8.4,0.553,5.2,7.1,Moderate Reliability
+2028,Work Permits,Permanent residency,5524,134,16.1,0.978,2.2,2.4,High Reliability
+2028,Work Permits,Study permit,640,50,29.9,0.919,8.2,7.8,High Reliability
+2028,Work Permits,Ukraine Emergency Law,1121,71,90.3,0.947,2.9,6.3,High Reliability
+2028,Work Permits,Work permit 3rd country,2167,45,18.7,0.982,2.0,2.1,High Reliability
+2028,Work Permits,Work permit EU,5701,236,9.8,0.873,3.2,4.1,Good Reliability
+2029,Foreign Population,Foreign citizens 20-64 years,39736,687,8.6,0.97,1.2,1.7,High Reliability
+2029,Foreign Workers,Full time EU workers,5979,272,9.8,0.873,3.2,4.5,Good Reliability
+2029,Foreign Workers,Full time third country workers,2339,52,18.7,0.982,2.0,2.2,High Reliability
+2029,Foreign Workers,Total workers,8318,285,11.7,0.937,2.6,3.4,High Reliability
+2029,Migration,Emigration foreign citizens 20-64 years,7476,360,21.9,0.918,5.1,4.8,High Reliability
+2029,Migration,Immigration foreign citizens 20-64 years,8732,1062,18.5,0.504,11.4,12.2,Moderate Reliability
+2029,Migration,Net migration,1257,628,39.5,0.008,32.6,50.0,Low Reliability
+2029,Work Permits,Family reunification,1339,106,8.4,0.553,5.2,7.9,Moderate Reliability
+2029,Work Permits,Permanent residency,5923,155,16.1,0.978,2.2,2.6,High Reliability
+2029,Work Permits,Study permit,704,50,29.9,0.919,8.2,7.1,High Reliability
+2029,Work Permits,Ukraine Emergency Law,1290,83,90.3,0.947,2.9,6.4,High Reliability
+2029,Work Permits,Work permit 3rd country,2339,52,18.7,0.982,2.0,2.2,High Reliability
+2029,Work Permits,Work permit EU,5979,272,9.8,0.873,3.2,4.5,Good Reliability
+2030,Foreign Population,Foreign citizens 20-64 years,41486,768,8.6,0.97,1.2,1.9,High Reliability
+2030,Foreign Workers,Full time EU workers,6257,304,9.8,0.873,3.2,4.9,Good Reliability
+2030,Foreign Workers,Full time third country workers,2510,58,18.7,0.982,2.0,2.3,High Reliability
+2030,Foreign Workers,Total workers,8768,319,11.7,0.937,2.6,3.6,High Reliability
+2030,Migration,Emigration foreign citizens 20-64 years,8108,402,21.9,0.918,5.1,5.0,High Reliability
+2030,Migration,Immigration foreign citizens 20-64 years,9314,1187,18.5,0.504,11.4,12.7,Moderate Reliability
+2030,Migration,Net migration,1206,603,39.5,0.008,32.6,50.0,Low Reliability
+2030,Work Permits,Family reunification,1386,119,8.4,0.553,5.2,8.6,Moderate Reliability
+2030,Work Permits,Permanent residency,6321,174,16.1,0.978,2.2,2.8,High Reliability
+2030,Work Permits,Study permit,769,55,29.9,0.919,8.2,7.2,High Reliability
+2030,Work Permits,Ukraine Emergency Law,1460,92,90.3,0.947,2.9,6.3,High Reliability
+2030,Work Permits,Work permit 3rd country,2510,58,18.7,0.982,2.0,2.3,High Reliability
+2030,Work Permits,Work permit EU,6257,304,9.8,0.873,3.2,4.9,Good Reliability
