@@ -1,6 +1,6 @@
 # Aarhus Workforce Forecast - Power BI Semantic Model
 
-This document outlines the semantic data model for the Aarhus International Workforce Forecast (2026-2030) Power BI dashboard and was machine generated after feeding a LLM (Claude Sonnet 4) with project data.
+This document outlines the semantic data model for the Aarhus International Workforce Forecast (2026-2030) Power BI dashboard and was machine generated after feeding a LLM (Claude Sonnet 4) with project data before I added the schools capacity page.
 
 ## Project Overview
 
