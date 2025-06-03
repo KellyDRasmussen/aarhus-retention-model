@@ -6,6 +6,11 @@ This document outlines the semantic data model for the Aarhus International Work
 
 This Power BI model analyzes and forecasts international workforce trends in Aarhus Kommune through 2030, based on historical data from 2021-2025. The model focuses on the municipality's target of recruiting 7,500 additional international workers by 2030 (1,500 per year) and demonstrates how spouse employment scenarios can significantly reduce recruitment needs.
 
+## Interactive Power BI Dashboard
+
+Check it out here: [Open Dashboard](https://app.powerbi.com/reportEmbed?reportId=e54d2129-8f56-4d07-923f-443c77767587&autoAuth=true&ctid=5a78eec7-2a2a-4546-8283-2e0378ca707c)
+
+
 ### Key Analysis Components
 1. **Baseline Forecasting** - Projects current trends in international workers and migration
 2. **Spouse Employment Scenarios** - Models the impact of partner employment rates on retention and workforce growth
